@@ -1,6 +1,8 @@
 package com.waly.oauthmicroservice.entities;
 
-public class Role {
+import org.springframework.security.core.GrantedAuthority;
+
+public class Role implements GrantedAuthority {
 
     private Long id;
     private String authority;

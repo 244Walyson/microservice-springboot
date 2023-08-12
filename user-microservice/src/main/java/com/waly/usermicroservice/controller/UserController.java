@@ -4,6 +4,7 @@ import com.waly.usermicroservice.entities.User;
 import com.waly.usermicroservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -23,4 +24,5 @@ public class UserController {
     public ResponseEntity<User> searchByEmail(@RequestParam(value = "email", defaultValue = "") String email){
         return ResponseEntity.ok(service.findByEmail(email));
     }
+
 }
