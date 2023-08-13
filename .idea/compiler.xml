@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="payroll-microservice" />
-        <module name="eureka-server" />
         <module name="worker-microservice" />
         <module name="api-gateway-spring-cloud" />
+        <module name="oauth-microservice" />
+        <module name="payroll-microservice" />
+        <module name="eureka-server" />
+        <module name="user-microservice" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,7 +21,9 @@
       <module name="api-gateway-spring-cloud" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="oauth-microservice" options="-parameters" />
       <module name="payroll-microservice" options="-parameters" />
+      <module name="user-microservice" options="-parameters" />
       <module name="worker-microservice" options="-parameters" />
     </option>
   </component>

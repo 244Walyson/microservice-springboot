@@ -22,8 +22,8 @@ import java.util.List;
 public class WorkerController {
 
 
-    @Value("${test.config}")
-    private String testConfig;
+//    @Value("${test.config}")
+//    private String testConfig;
 
     @Autowired
     private Environment env;
@@ -46,7 +46,7 @@ public class WorkerController {
 
     @GetMapping(value = "/config")
     public ResponseEntity<Void> find(){
-        logger.info("CONFIG = " + testConfig);
+//        logger.info("CONFIG = " + testConfig);
         return ResponseEntity.noContent().build();
     }
 }

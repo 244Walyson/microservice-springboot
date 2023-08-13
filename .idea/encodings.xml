@@ -7,8 +7,12 @@
     <file url="file://$PROJECT_DIR$/config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-microservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payroll-microservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payroll-microservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-microservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/worker-microservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/worker-microservice/src/main/resources" charset="UTF-8" />
   </component>
