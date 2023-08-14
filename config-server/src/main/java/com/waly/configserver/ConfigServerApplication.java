@@ -8,19 +8,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
 @SpringBootApplication
-public class ConfigServerApplication implements CommandLineRunner {
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
-	@Value("${github.user}")
-	String user;
-	@Value("${github.password}")
-	String pass;
-
-	@Override
-	public void run(String... args) throws Exception {
-		System.out.println(user + " " +pass);
-	}
 }
